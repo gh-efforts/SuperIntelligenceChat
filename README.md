@@ -20,6 +20,7 @@ This tool provides businesses and individual users with an easy, fast and effici
 5. Solve the problem of accessing Filecoin data:
 - Although the Filecoin browser provides some data query functions, users may not be able to find the right tools for some specific and complex queries. Our solution makes interaction with the Filecoin database simple and intuitive, allowing users to ask various queries at will and get detailed answers.
 # Technology Architecture
+![Technology Architecture](/resources/liliai.jpg)
 1. First, we synchronize the data of the Filecoin chain to the local database through the Lily tool for storage, and synchronize in real time.
 2. The table structure, the filecoin official documents, some commonly used document terms, commonly used query SQL, and questions are vectorized and stored together with the original data in a vector database.
 3. When the user enters natural language, the user's input is vectorized, and then the correlation is matched in the vector database to find the DDL, documents, SQL, etc. with high correlation. Then, these data and the user's questions are assembled into a prompt project for a large model query, and then the large model is called for reasoning and returning SQL. The program uses the generated SQL to query data and return data.
