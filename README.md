@@ -27,5 +27,8 @@ This tool provides businesses and individual users with an easy, fast and effici
 4. Then, the returned query data is combined with the user's questions and related documents to build a prompt project for generating BI icons again, and the large model is called to return the code for generating BI charts. So that the icon is displayed on the page.
 5. If the generated SQL meets your requirements, you can also click the approval button to feedback the SQL to the training data, which can improve the accuracy of SQL.
 # Demo
- Coming soon...
+Example 1:
+ ![demo1](/resources/demo1.jpeg)
+Example 2:
+ ![demo2](/resources/demo2.jpeg)
 
